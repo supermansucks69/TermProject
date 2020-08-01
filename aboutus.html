@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+         <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js" integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE=" crossorigin="anonymous"></script>
+        
+
+
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>        
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
+        <script src="js/chart.js"></script>
+        <script src="js/pinboard.js"></script>
+
+        <title>Hello, world!</title>
+    </head>
+    
+    <body>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/ZooLogos.jpg" height="170px">
+              </div>
+              <div class="col-8">
+                <h1 style = "font-family:fantasy;">
+                Zoo Souvenir Shop
+                </h1>
+                <p style = "font-family:monospace;">
+                About us
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul>
+        <li><a href="index.html">Shop</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+         </ul>
+
+        <h1>Map</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.44688263464!2d103.77193390774706!3d1.3172376007621343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13d9102adcaf%3A0xb414fac8a43b1b91!2sSingapore%20Zoo!5e0!3m2!1sen!2ssg!4v1595648637843!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <h1>Chart</h1>
+        <div class="chart-div">
+            <canvas id="chart-visitor"></canvas>
+        </div>
+
+      
+      
+        <button type="button" class="btn btn-light btn-lg" id="btn-addNote">Add New Note</button>
+        <h2> Any Notes(you can add in the space below)</h2>
+      </div>
+
+      <div id="board">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_hIjFaT.json"  background="transparent"  speed="1 "  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
+      </div>
+
+        
+   </body>
+</html>

@@ -1,0 +1,31 @@
+{
+    "items" : [
+
+        {
+            "name": "grizzly bear toy",
+            "price": "5"
+            "label": "Grizzly Bear T"
+        },
+
+        {
+            "name": "panda bear toy",
+            "price": "6"
+        },
+
+        {
+            "name": "polar bear toy",
+            "price": "3"
+        },
+
+        {
+            "name": "sloth toy",
+            "price": "8"
+        },
+
+        {
+            "name": "wolf toy",
+            "price": "7"
+        }
+    ]
+
+}
