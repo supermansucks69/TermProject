@@ -1,9 +1,9 @@
 var jsonStringListOfFood = '{ "items" : [ '                                           +
-    '{ "label": "Grizzly Bear Toy", "name": "grizzlybeartoy",     "price": "15" },'   +
-    '{ "label": "Panda Bear Toy", "name": "pandabeartoy",   "price": "16" },'         +
-    '{ "label": "Polar Bear Toy", "name": "polarbeartoy",       "price": "13" },'     +
-    '{ "label": "Sloth Toy", "name": "slothtoy",      "price": "18" },'               +
-    '{ "label": "Wolf Toy", "name": "wolftoy",     "price": "17" } '                  +
+    '{ "label": "Grizzly Bear Toy", "name": "GrizzlyBearToy",     "price": "15" },'   +
+    '{ "label": "Panda Bear Toy", "name": "PandaBearToy",   "price": "16" },'         +
+    '{ "label": "Polar Bear Toy", "name": "PolarBearToy",       "price": "13" },'     +
+    '{ "label": "Sloth Toy", "name": "SlothToy",      "price": "18" },'               +
+    '{ "label": "Wolf Toy", "name": "WolfToy",     "price": "17" } '                  +
     '] }';
 
 $(document).ready(function(){
